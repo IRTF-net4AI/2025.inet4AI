@@ -14,8 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-baseurl: "/inet4ai" # the subpath of your site, e.g. /blog
-url: "https://IRTF-net4AI.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/inet4ai" # the subpath of your site, e.g. /blog
+baseurl: "/2025"
+# url: "https://IRTF-net4AI.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://IRTF-net4AI.github.io/inet4ai"
 css: ./assets/main.css
 
 show_last_updated: True
