@@ -1,0 +1,145 @@
+full_name: Workshop on Inter-networking challenges for AI
+short_name: INET4AI
+description: > # this means to ignore newlines until "baseurl:"
+  This workshop, initiated in the Internet Research Task Force (IRTF)'s 
+  realm, aims at discussing the networking challenges raised by the 
+  distribution of generative AI workloads at a large scale. 
+
+email: chairs@inet4ai.org
+
+iteration: 1st
+full_title: 1st Workshop on Inter-networking challenges for AI, collocated with CoNEXT'25
+short_title: 1st INET4AI 2025
+
+year: 2025
+date: December 1, 2025
+
+location: HKUST, Hong Kong
+country: China
+
+# TODO change logo path
+logo_path: ./assets/images/INET4AI.jpg
+
+# if show_logo is false, show_title: false has no effect
+show_logo: true
+show_title: true
+
+slideshow:
+  - id: 0
+    image_path: ./assets/images/slideshow/0_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+    active: True
+  - id: 1
+    image_path: ./assets/images/slideshow/1_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+  - id: 2
+    image_path: ./assets/images/slideshow/2_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+  - id: 3
+    image_path: ./assets/images/slideshow/0_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+    active: True
+  - id: 4
+    image_path: ./assets/images/slideshow/1_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+  - id: 5
+    image_path: ./assets/images/slideshow/2_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+navbar:
+  - id: 0
+    label: Home
+    path: /
+    visible: True
+  - id: 1
+    label: Organization
+    path: /organization.html
+    visible: True
+  - id: 2
+    label: Calls for Papers
+    visible: True
+    children:
+    - id: 1
+      label: Call for Demos
+      path: /cfd.html
+      visible: False
+    - id: 2
+      label: Call for Papers
+      path: /cfp.html
+      visible: True
+  - id: 3
+    label: Submission
+    visible: False
+    children:
+    - id: 1
+      label: Submission
+      path: /submission.html
+      visible: False
+    - id: 2
+      label: Accepted Papers
+      path: /accepted.html
+      visible: False
+  - id: 4
+    label: Program
+    path: /program.html
+    visible: True
+  - id: 5
+    label: Venue
+    path: /venue.html
+    visible: True
+  - id: 6
+    label: Registration
+    path: /registration.html
+    visible: False
+deadline_timezone: AoE
+deadlines:
+#   - date: 2023-10-03
+#     text: Submission deadline
+#     pass_due: True
+#     strike_through: False
+  - date: 2025-09-03
+    text: Paper submissions deadline
+    pass_due: False
+    strike_through: True 
+  - date: 2025-09-12
+    text: Paper submissions deadline
+    pass_due: False
+    strike_through: False 
+  - date: 2025-10-01
+    text: Paper acceptance notification
+    pass_due: False
+    strike_through: False 
+  - date: 2025-10-08
+    text: Camera ready due
+    pass_due: False
+    strike_through: False 
+  - date: 2025-10-16
+    text: Program available online
+    pass_due: False
+    strike_through: False 
+
+# Additional elements supported by the template
+# sponsors:
+#   - name: International Association of Sanskrit Studies
+#     logo_path: ./assets/images/sponsors/iass-logo.png
+#     url: https://www.sanskritassociation.org/ (optionnal)
+# 
+# social_media:
+#   facebook_link:
+#   twitter_link:
+# 
+# previous_iterations:
+#  - name: 6th ISCLS
+#     year: 2019
+#     url: https://iscls.github.io/iscls2019/

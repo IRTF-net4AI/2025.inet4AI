@@ -1,0 +1,59 @@
+portal: INET4AI Submission Portal
+url: "https://inet4ai25.hotcrp.com"
+email: submit@inet4ai.org 
+
+# file_formats:
+#   - PDF
+# languages:
+#   - English
+
+review_mode: 0
+# 0: double blind
+# 1: single blind
+
+pagelimits: six (6)
+#   - type: paper
+#     name: Paper
+#     limit: six (6)
+#   - type: demo
+#     name: Demonstration
+#     limit: 2
+
+# fontsize: 10
+
+# extra: |
+#   <h6 class="text-info">Compilation</h6>
+# 
+#   Let the fileame of your submision be <code>ABC.tex</code>.
+# 
+#   <pre class="pre-scrollable bg-dark text-light rounded mt-2 p-2">
+#   $ xelatex ABC
+#   $ bibtex ABC
+#   $ bibtex ABC # Remember to run bibtex twice
+#   $ xelatex ABC
+#   </pre>
+
+# sources:
+# - name: Sample TeX Source File
+#   url: ./assets/files/iscls.tex
+#   text: iscls.tex
+# - name: Sample PDF file
+#   url: ./assets/files/iscls.pdf
+#   text: iscls.pdf
+# - name: Style file
+#   url: ./assets/files/scl.sty
+#   text: scl.sty
+# - name: Bibliography Style
+#   url: ./assets/files/acl.bst
+#   text: acl.bst
+# - name: Sample Bibliography file
+#   url: ./assets/files/iscls.bib
+#   text: iscls.bib
+
+template:
+  name: ACM format
+  details: two-column 10pt
+  url: https://www.acm.org/publications/proceedings-template
+#   overleaf: https://www.overleaf.com/latex/templates/submission-template-and-instructions-for-the-iscls/dmhhdjnxqftd
+
+# publisher: Association for Computational Linguistics Anthology

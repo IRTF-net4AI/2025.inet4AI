@@ -1,0 +1,19 @@
+address: |
+  The main conference will happen in the LT-B.
+  The workshop will take place in room 2465, HKUST Campus, Hong-Kong
+  China
+  
+directions: >
+#   Google Maps Location: <a href="TBD">TBD</a>
+# accommodation:
+#   instructions: >
+#     <p>
+#       TBD
+#     </p>
+# 
+#   hotels:
+#     # - name: TBA
+#     #   address: TBA
+campus-picture: ./assets/images/hkust.jpg
+campus-direction: ./assets/images/campus.png
+direction: ./assets/images/Workshop-location.png
